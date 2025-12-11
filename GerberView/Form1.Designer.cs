@@ -46,6 +46,7 @@
             this.exportImageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pngImageToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.pdfDocumentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pdfDocumentVectorXGToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rS274XGerberToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.excellonDrillFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
@@ -268,6 +269,7 @@
             this.exportImageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pngImageToolStripMenuItem1,
             this.pdfDocumentToolStripMenuItem,
+            this.pdfDocumentVectorXGToolStripMenuItem,
             this.rS274XGerberToolStripMenuItem,
             this.excellonDrillFileToolStripMenuItem});
             this.exportImageToolStripMenuItem.Name = "exportImageToolStripMenuItem";
@@ -285,8 +287,15 @@
             //
             this.pdfDocumentToolStripMenuItem.Name = "pdfDocumentToolStripMenuItem";
             this.pdfDocumentToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
-            this.pdfDocumentToolStripMenuItem.Text = "PDF Document";
+            this.pdfDocumentToolStripMenuItem.Text = "PDF Document (High DPI)";
             this.pdfDocumentToolStripMenuItem.Click += new System.EventHandler(this.PdfDocumentToolStripMenuItem_Click);
+            //
+            // pdfDocumentVectorXGToolStripMenuItem
+            //
+            this.pdfDocumentVectorXGToolStripMenuItem.Name = "pdfDocumentVectorXGToolStripMenuItem";
+            this.pdfDocumentVectorXGToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
+            this.pdfDocumentVectorXGToolStripMenuItem.Text = "PDF Document (Vector XG)";
+            this.pdfDocumentVectorXGToolStripMenuItem.Click += new System.EventHandler(this.PdfDocumentVectorXGToolStripMenuItem_Click);
             //
             // rS274XGerberToolStripMenuItem
             // 
@@ -1216,6 +1225,7 @@
         private System.Windows.Forms.ToolStripMenuItem excellonDrillFileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem pngImageToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem pdfDocumentToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pdfDocumentVectorXGToolStripMenuItem;
         private FileListBox.FileListBoxControl fileListBox;
         private Ruler.RulerControl verticleRuler;
         private Ruler.RulerControl horizontalRuler;
