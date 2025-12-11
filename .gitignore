@@ -1,0 +1,5 @@
+# Ignore all build output directories (recursive)
+**/bin/
+**/obj/
+**/.vs/
+**/packages/
